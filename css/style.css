@@ -1,0 +1,83 @@
+/*
+
+azul  #24607f
+negro #000
+naranja #ff5105
+azul claro #a3e0ff
+gris claro #d2d2d2
+amarillo oro #ff8a00
+  
+*/
+
+*{
+	font-family: Arial;
+}
+
+body{
+	background: #24607f;
+	padding: 0 ;
+	margin: 0;
+}
+
+#container{
+	margin: 0 auto;
+	width: 850px;
+}
+
+#menu{
+	background-color: #fff;
+	text-align: center;
+}
+
+#menu ul{
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li {
+	list-style:none;
+	display: inline-block;
+	padding: 40px 10px;
+	margin-left: -25px;
+
+}
+
+#menu ul li a { 
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 40px 10px;
+}
+
+#menu ul li a:hover{
+	background-color: #ff5105;
+	color: #fff;
+}
+
+.logo, .logo:hover{
+	background: #ff5105 url(../img/logo2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-left: 70px !important; /*  con important prevalece el estilo que lo tenga así otro se halla definido con aterioridad*/
+	padding-right: 71px !important;
+}
+
+#slider{
+	background: url(../img/bg.jpg);
+	height: 450px;
+	width: 100%;
+	margin-top: 10px;
+
+	-webkit-box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	-o-box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+h2{
+	color: #a3e0ff;
+	font-size: 28px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}

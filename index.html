@@ -3,27 +3,28 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Web-Site With JQuery</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div id="container"> <!--Start Container-->
 		<div id="menu">	<!-- Start Menu -->	
 			<ul>
-				<li><a href="#">Servicios</a></li>
-				<li><a href="#">Trabajos</a></li>
-				<li><a href="#"></a></li>
-				<li><a href="#">FAQ</a></li>
-				<li><a href="#">Contactos</a></li>
+				<li><a href="#servicios">Servicios</a></li>
+				<li><a href="#trabajo">Trabajos</a></li>
+				<li><a href="#inicio" class="logo">&nbsp;</a></li>
+				<li><a href="#contacto">Contactos</a></li>
+				<li><a href="#FAQ">FAQ</a></li>
 			</ul>
 		</div> <!-- End Menu -->
-		<div id="Slider"><!-- Start Slider -->
+		<div id="inicio"> <!-- Start Inicio -->
+			<div id="slider"><!-- Start Slider -->
+				<div id="containerSlider"><!-- Start containerSlider -->
+					
+				</div><!-- End containerSlider -->
+			</div> <!-- End Slider -->
+		</div> <!-- End Inicio -->
 
-			<div id="containerSlider"><!-- Start containerSlider -->
-				
-			</div><!-- End containerSlider -->
-
-		</div> <!-- End Slider -->
-
-		<div id="Servicios"><!-- Start Servicios --> 
+		<div id="servicios"> <!-- Start Servicios --> 
 
 			<h2>Servicios</h2>
 
@@ -34,7 +35,7 @@
 			</div> <!-- End scordeonServicios -->
 		</div><!-- End Servicios -->
 
-		<div id="Trabajos"><!-- Start Trabajos -->
+		<div id="trabajos"><!-- Start Trabajos -->
 
 			<h2>trabajos</h2>
 
@@ -63,7 +64,7 @@
  
 		</div><!-- End FAQ -->
 
-		<div id="Contacto"><!-- Start Contacto -->
+		<div id="contacto"><!-- Start Contacto -->
 
 			<h2>Contacto</h2>
 
@@ -72,7 +73,7 @@
 		<div id="formulario"><!-- Start Formulario -->
 			<form action=""></form>
 
-				<label>Nombre</label>
+				<label>Nombre</label><br>
 				<input type="text" class="campo" id="tfNombre"><br/>
 
 				<label>Email</label>
@@ -84,7 +85,7 @@
 				<label>Mensaje</label>
 				<textarea id="tfMensaje" cols="30" rows="10"></textarea><br/>
 
-				<input type="submit" value="Enviar">
+				<input type="submit" value="Enviar" class="boton">
 
 		</div> <!-- End formulario -->
 		</div><!-- End Contacto -->
